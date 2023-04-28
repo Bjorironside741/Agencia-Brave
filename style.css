@@ -39,7 +39,11 @@ hr{
   margin-left: 48%;
   margin-top: -20px;
 }
-
+.container{
+  background-image: url("./Blue\ Geometric\ Identity\ Business\ ID\ Card\ \(1\)\ 1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .menu-Content{
   display: flex;
   justify-content: space-between;
@@ -48,6 +52,7 @@ hr{
   margin-right: 15vh;
   margin-top: 18px;
   margin-bottom: 38px;
+  
 }
 .menu-Content img{
   width: 100px;
@@ -105,40 +110,84 @@ hr{
   align-items: center;
   margin-top: 10vh;
   margin-bottom: 10vh;
+  background-image: url("./Blue\ Geometric\ Identity\ Business\ ID\ Card\ 1\ \(1\).png");
+  background-size: cover;
 }
 .servicos h1{
   color: white;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .servicos-Content{
   display: flex;
+  justify-content: center;
   gap: 50px;
 }
-.servicos-Content img{
-  height: 500px;
+.card{
+  height: 350px;
+  width: 400px;
+  background: rgba(0, 168, 191, 0.1);
   border-radius: 10px;
-  border: 2px solid #38D112;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.servicos-Content img:hover{
-  border: 2px solid #0085FF;
+.card:hover{
+  background: rgba(0, 168, 191, 0.1);
+  box-shadow: 0px 0px 10px rgba(0, 194, 255, 0.76);
+  border-radius: 10px;
 }
 .title-content{
   color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 25px;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
   text-align: center;
-  width: 350px;
 }
 
 .portifolio{
-  width: 500px;
-  height: 500px;
-  background-color: red;
-  margin: 0 auto;
+  background-image: url("./Blue\ Geometric\ Identity\ Business\ ID\ Card\ \(3\)\ 1.png");
+  background-image: url("./Blue\ Geometric\ Identity\ Business\ ID\ Card\ \(3\)\ 2.png");
+  background-repeat:inherit;
+  background-size: contain;
+}
+#empresa{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.portifolio-Empresas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn-carrossel{
+  background: rgba(0, 0, 0, 0.19);
+  border: 1px solid rgba(134, 134, 134, 0.4);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  border-radius: 50%;
 }
 
+.portifolio h1{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  border-radius: 20px;
+  padding: 10px;
+  width: 700px;
+  margin: auto;
+}
 .fomulario{
   background-image: url("./img/fundo-formulario");
   background-position: left top;
@@ -348,6 +397,116 @@ hr{
     .open{
       display: block;
     }  
+}
+@media screen and (max-width: 414px){
+  .menu-Content{
+    justify-content: space-between;
+    gap: 100px;
+    margin-left: 20px;
+  }
+  .texto h1{
+    font-size: 25px;
+
+  } 
+  .texto h4{
+    font-size: 15px;
+    width: 300px;
+  }
+  .apresentacaoContent{
+    margin-left: 40px;
+  }
+  
+  .servicos h1{
+    width: 300px;
+    padding: 4px;
+    text-align: center;
+    font-size: 15px; 
+  }
+  .servicos-Content{
+    gap: 35px;
+  }
+  .card{
+    width: 260px;
+    height: 200px;
+  }
+  .title-content{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 5px;
+  }
+  .card-content img{
+    height: 150px;
+  }
+  .portifolio h1{
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+  }
+  hr{
+    width: 100vh;
+  }
+  #empresa{
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #btn-carrossel{
+      width: 40px;
+      padding: 10px;
+  }
+  .fomulario{
+    background-size: cover;
+  }
+  .fomulario-Content{
+    font-size: 15px;
+    text-align: justify;
+    width: 350px;
+    height: 400px;
+    margin-left: 40px;
+  }
+  .fomulario h4{
+    width: 300px;
+    margin-left: 20px;
+  }
+  .fomulario-Content input{
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .fomulario-Content button{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .linha{
+    width: 50vh;
+  }
+  hr{
+    width: 49vh;
+  }
+  .rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    margin-left: 1vh;
+    margin-right: 10vh;
+  }
+  .agencia{
+    width: 200px;
+    margin-left: 10vh;
+  }
+  .endereco{
+    width: 300px;
+    margin-left: 20vh;
+  }
+  .redes{
+    width: 200px;
+    margin-left: 18vh;
+  }
 }
 @media screen and (max-width: 375px) {
   .menu-Content{
