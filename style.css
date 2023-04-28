@@ -529,6 +529,20 @@ hr{
     margin-left: 60vh;
     gap: 35px;
   }
+  .portifolio h1{
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+  }
+  #empresa{
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #btn-carrossel{
+      width: 40px;
+      padding: 10px;
+  }
   .fomulario{
     background-size: cover;
   }
@@ -541,6 +555,99 @@ hr{
   }
   .linha{
     width: 110vh;
+  }
+  .rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    margin-left: 50vh;
+    margin-right: 10vh;
+  }
+  .agencia{
+    width: 200px;
+    margin-left: 10vh;
+  }
+  .endereco{
+    width: 300px;
+    margin-left: 20vh;
+  }
+  .redes{
+    width: 200px;
+    margin-left: 18vh;
+  }
+}
+@media screen and (max-width: 360px){
+  .menu-Content{
+    display: flex;
+    justify-content: space-between;
+    gap: 280px;
+    margin-left: 40px;
+  }
+  .texto h1{
+    font-size: 25px;
+  } 
+  .texto h4{
+    font-size: 20px;
+    width: 600px;
+  }
+  .servicos h1{
+    
+    width: 500px;
+  }
+  .servicos-Content{
+    margin-left: 40vh;
+    gap: 35px;
+  }
+  .servicos h1{
+    margin-left: 65vh;
+    width: 500px;
+  }
+  .servicos-Content{
+    margin-left: 60vh;
+    gap: 35px;
+  }
+  .portifolio h1{
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+    margin-left: 35vh;
+  }
+  .portifolio-Empresas{
+    margin-left: 55vh;
+  }
+  #empresa{
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+  }
+  #btn-carrossel{
+      width: 40px;
+      padding: 10px;
+  }
+  .fomulario{
+    background-size: cover;
+  }
+  .fomulario-Content{
+    width: 550px;
+    margin-left: 120px;
+  }
+  .fomulario h4{
+    width: 450px;
+    margin-left: 40px;
+  }
+
+  .fomulario-Content input{
+    width: 400px;
+    margin-left: 40px;
+  }
+  #tracado{
+    margin-left: 52vh;
+  }
+  hr{
+    width: 105vh;
   }
   .rodape{
     display: flex;
