@@ -462,14 +462,14 @@ hr{
     text-align: justify;
     width: 350px;
     height: 400px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .fomulario h4{
     width: 300px;
-    margin-left: 20px;
+    margin-left: 25px;
   }
   .fomulario-Content input{
-    width: 200px;
+    width: 300px;
     height: 30px;
     font-size: 12px;
     margin-left: 20px;
