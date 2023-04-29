@@ -512,31 +512,35 @@ hr{
   .menu-Content{
     display: flex;
     justify-content: space-between;
-    gap: 300px;
+    gap: 110px;
   }
   .texto h1{
-    font-size: 25px;
+    font-size: 20px;
   } 
   .texto h4{
-    font-size: 20px;
-    width: 600px;
+    font-size: 15px;
+    width: 330px;
   }
   .servicos h1{
-    margin-left: 65vh;
-    width: 500px;
+    margin-left: 05vh;
+    width: 300px;
   }
   .servicos-Content{
-    margin-left: 60vh;
+    margin-left: 04vh;
     gap: 35px;
   }
   .portifolio h1{
     font-size: 18px;
     padding: 10px;
+    margin-left: 50px;
     width: 300px;
+  }
+  .portifolio-Empresas{
+    margin-left: 35px;
   }
   #empresa{
     height: 200px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
   }
   #btn-carrossel{
@@ -547,14 +551,17 @@ hr{
     background-size: cover;
   }
   .fomulario-Content{
-    width: 600px;
-    margin-left: 170px;
+    width: 300px;
+    margin-left: 50px;
   }
+  .fomulario h4{
+    width: 250px;
+    margin-left: 20px;
+  }
+
   .fomulario-Content input{
-    width: 500px;
-  }
-  .linha{
-    width: 110vh;
+    width: 250px;
+    margin-left: 20px;
   }
   .rodape{
     display: flex;
@@ -562,7 +569,7 @@ hr{
     gap: 20px;
     align-items: center;
     padding: 10px;
-    margin-left: 50vh;
+    margin-left: 7vh;
     margin-right: 10vh;
   }
   .agencia{
@@ -625,7 +632,7 @@ hr{
   }
   .fomulario-Content{
     width: 300px;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .fomulario h4{
     width: 250px;
