@@ -398,6 +398,113 @@ hr{
       display: block;
     }  
 }
+@media screen and (max-width: 500px){
+  .menu-Content{
+    justify-content: space-between;
+    gap: 130px;
+    margin-left: 50px;
+  }
+  .texto h1{
+    font-size: 25px;
+
+  } 
+  .texto h4{
+    font-size: 15px;
+    width: 400px;
+  }
+  .apresentacaoContent{
+    margin-left: 40px;
+  }
+  
+  .servicos h1{
+    width: 300px;
+    padding: 4px;
+    text-align: center;
+    font-size: 15px; 
+  }
+  .servicos-Content{
+    gap: 35px;
+  }
+  .card{
+    width: 260px;
+    height: 200px;
+  }
+  .title-content{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 5px;
+  }
+  .card-content img{
+    height: 150px;
+  }
+  .portifolio h1{
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+  }
+  #empresa{
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #btn-carrossel{
+      width: 40px;
+      padding: 10px;
+  }
+  .fomulario{
+    background-size: cover;
+  }
+  .fomulario-Content{
+    font-size: 15px;
+    text-align: justify;
+    width: 350px;
+    height: 400px;
+    margin-left: 68px;
+  }
+  .fomulario h4{
+    width: 300px;
+    margin-left: 25px;
+  }
+  .fomulario-Content input{
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .fomulario-Content button{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .linha{
+    width: 55vh;
+  }
+  hr{
+    width: 59vh;
+  }
+  .rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    margin-left: 1vh;
+    margin-right: 10vh;
+  }
+  .agencia{
+    width: 200px;
+    margin-left: 10vh;
+  }
+  .endereco{
+    width: 300px;
+    margin-left: 20vh;
+  }
+  .redes{
+    width: 200px;
+    margin-left: 18vh;
+  }
+}
 @media screen and (max-width: 414px){
   .menu-Content{
     justify-content: space-between;
