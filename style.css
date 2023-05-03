@@ -1,44 +1,56 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  
+  box-sizing: border-box;  
 }
+
 body{
   background-color: #131B22;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 html, body{
   max-width: 100%;
 }
+/* Rolagem da Pagina*/
+
 ::-webkit-scrollbar{
   width: 10px;
 }
+
 ::-webkit-scrollbar-track{
   background: #131B22;
 }
+
 ::-webkit-scrollbar-thumb{
   -webkit-border-radius: 12px;
   border-radius: 12px;
   background: #000000;
   border: 1px solid #65757f;
 }
+
 ::-webkit-scrollbar-thumb:hover{
   -webkit-border-radius: 12px;
   border-radius: 12px;
   background: #000000;
   border: 2px solid #f7fbff;
 }
+/* Linha que divide */
 hr{
   background: rgba(217, 217, 217, 0.09);
   width: 100%;
 }
+
 #tracado{
   margin-left: 48%;
   margin-top: -20px;
 }
+
+/* Menu */
+
 .container{
   background-image: url("./Blue\ Geometric\ Identity\ Business\ ID\ Card\ \(1\)\ 1.png");
   background-repeat: no-repeat;
@@ -72,6 +84,9 @@ hr{
 .menu a:hover{
   border-bottom: 3px solid #38D112 ;
 }
+
+/* Apresentação*/
+
 .apresentacaoContent{
   display: flex;
   align-items: center;
@@ -84,11 +99,10 @@ hr{
   background-image: url("./Rectangle\ 9.svg");
 }
 
-
 .texto{
   color: #F3F3F3;
-
 }
+
 .texto h1{
   font-size: 60px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -103,6 +117,9 @@ hr{
   text-align: justify;
   font-family: 'Roboto', sans-serif;
 }
+
+/* serviços*/
+
 .servicos{
   display: flex;
   flex-direction: column;
@@ -113,6 +130,7 @@ hr{
   background-image: url("./Blue\ Geometric\ Identity\ Business\ ID\ Card\ 1\ \(1\).png");
   background-size: cover;
 }
+
 .servicos h1{
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -130,6 +148,7 @@ hr{
   justify-content: center;
   gap: 50px;
 }
+
 .card{
   height: 350px;
   width: 400px;
@@ -140,11 +159,13 @@ hr{
   justify-content: center;
   align-items: center;
 }
+
 .card:hover{
   background: rgba(0, 168, 191, 0.1);
   box-shadow: 0px 0px 10px rgba(0, 194, 255, 0.76);
   border-radius: 10px;
 }
+
 .title-content{
   color: white;
   font-family: 'Share Tech', sans-serif;
@@ -152,6 +173,8 @@ hr{
   font-weight: lighter;
   text-align: center;
 }
+
+/* Portifólio */
 
 .portifolio{
   background-image: url("./Blue\ Geometric\ Identity\ Business\ ID\ Card\ \(3\)\ 1.png");
@@ -163,6 +186,7 @@ hr{
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
+  height: 800px;
 }
 .portifolio-Empresas{
   display: flex;
@@ -188,6 +212,8 @@ hr{
   width: 700px;
   margin: auto;
 }
+
+/* Formulario */
 .fomulario{
   background-image: url("./img/fundo-formulario");
   background-position: left top;
@@ -199,7 +225,7 @@ hr{
 
 .fomulario-Content{
   width: 800px;
-  height: 500px;
+  height: 600px;
   background: rgba(0, 0, 0, 0.3);
   border: 1px solid #4A4A4A;
   border-radius: 0px 0px 20px 20px;
@@ -252,6 +278,9 @@ hr{
   margin-bottom: -70px;
   margin-top: 10px;
 }
+
+/* Rodapé */
+
 .rodape{
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -294,7 +323,7 @@ hr{
 .menu-mobile{
   display: none;
 }
-@media screen and (max-width: 1565px){
+@media screen and (max-width: 1565px min-windth: 1500px){
   .menu a{
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -331,6 +360,44 @@ hr{
     gap: 35vh;
   }
 }
+@media screen and (max-width: 1500px){
+  .menu a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .texto h1{
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .texto h4{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+  }
+  .img img{
+    width: 400px;
+  }
+  .servicos-Content{
+    display: flex;
+    gap: 20px;
+  }
+  .servicos-Content img{
+    height: 170px;
+    width: 280px auto;
+  }
+  .title-content{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .rodape{
+    gap: 35vh;
+  }
+}
+
 @media screen and (max-width: 1480px){
   .img{
     display: none;
@@ -396,7 +463,90 @@ hr{
     }
     .open{
       display: block;
+    }
+    .menu-Content{
+      justify-content: space-between;
+      gap: 380px;
+      margin-left: 50px;
     }  
+    .texto h4{
+      width: 810px;
+    }
+    .servicos h1{
+      margin-left: 40vh;
+      width: 600px;
+    }
+    .servicos-Content{
+      margin-left: 40vh;
+    }
+    .card{
+      width: 490px;
+      height: 400px;
+    }
+    .card img{
+      height: 250px;
+      width: 300px;
+    }
+    .title-content{
+      font-size: 25px;
+      text-align: center;
+      margin-left: 5px;
+      margin-top: 15px;
+    }
+    .portifolio{
+      background-size: contain;
+      background-repeat: repeat;
+      width: 100%;
+    }
+    .portifolio-Empresas{
+      margin-left: 40vh;
+    }
+    .portifolio h1{
+      margin-left: 43vh;
+      font-size: 18px;
+      padding: 10px;
+      width: 300px;
+    }
+    #empresa{
+      height: 500px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #btn-carrossel{
+        width: 40px;
+        padding: 10px;
+    }
+    .fomulario{
+      background-size: cover;
+    }
+    .fomulario-Content{
+    margin-left: 100px;
+    }
+    .linha{
+      width: 60rem;
+    }
+    hr{
+      width: 122vh;
+    }
+    .rodape{
+      justify-content: space-around;
+      gap: 10vh;
+      width: 1000px;
+      padding: 10px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .agencia{
+      width: 400px;
+      margin-left: 10vh;
+    }
+    .endereco{
+      width: 500px;
+      margin-left: 10vh;
+    }
+    .redes{
+      width: 500px;
+    }
 }
 @media screen and (max-width: 500px){
   .menu-Content{
