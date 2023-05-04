@@ -422,7 +422,7 @@ hr{
   }
   .servicos-Content img{
     height: 290px;
-    width: 260px auto;
+    width: 380px;
   }
   .title-content{
     font-size: 18px;
@@ -601,7 +601,9 @@ hr{
   .apresentacaoContent{
     margin-left: 40px;
   }
-  
+  .servicos{
+    margin-left: -55vh;
+  }
   .servicos h1{
     width: 300px;
     padding: 4px;
@@ -698,7 +700,7 @@ hr{
     margin-left: 20px;
   }
   .texto h1{
-    font-size: 25px;
+    font-size: 28px;
 
   } 
   .texto h4{
@@ -708,7 +710,9 @@ hr{
   .apresentacaoContent{
     margin-left: 40px;
   }
-  
+  .servicos{
+    margin-left: -40vh;
+  }
   .servicos h1{
     width: 300px;
     padding: 4px;
@@ -717,6 +721,10 @@ hr{
   }
   .servicos-Content{
     gap: 35px;
+  }
+  .servicos-Content img{
+    width: 190px;
+    height: 100px;
   }
   .card{
     width: 260px;
@@ -730,9 +738,13 @@ hr{
   .card-content img{
     height: 150px;
   }
+  .portifolio{
+    margin-left: -20vh;
+  }
   .portifolio h1{
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px;
+    margin-left: 28vh;
     width: 300px;
   }
   hr{
@@ -785,8 +797,7 @@ hr{
     gap: 20px;
     align-items: center;
     padding: 10px;
-    margin-left: 1vh;
-    margin-right: 10vh;
+    margin-left: -330px;
   }
   .agencia{
     width: 200px;
@@ -805,22 +816,28 @@ hr{
   .menu-Content{
     display: flex;
     justify-content: space-between;
-    gap: 110px;
+    gap: 100px;
   }
   .texto h1{
     font-size: 20px;
   } 
   .texto h4{
     font-size: 15px;
-    width: 330px;
+    width: 310px;
+  }
+  .servicos{
+    margin-left: -1vh;
   }
   .servicos h1{
     margin-left: 05vh;
     width: 300px;
   }
   .servicos-Content{
-    margin-left: 04vh;
+    margin-left: 4vh;
     gap: 35px;
+  }
+  .portifolio{
+    margin-left: -1vh;
   }
   .portifolio h1{
     font-size: 18px;
@@ -862,8 +879,6 @@ hr{
     gap: 20px;
     align-items: center;
     padding: 10px;
-    margin-left: 7vh;
-    margin-right: 10vh;
   }
   .agencia{
     width: 200px;
@@ -902,6 +917,10 @@ hr{
   .servicos-Content{
     margin-left: 2vh;
     gap: 35px;
+  }
+  .servicos-Content img{
+    width: 180px;
+    height: 150px;
   }
   .portifolio h1{
     font-size: 15px;
@@ -948,9 +967,9 @@ hr{
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    margin-left: -45vh;
     padding: 10px;
-    margin-left: 00vh;
-    margin-right: 10vh;
+
   }
   .agencia{
     width: 200px;
