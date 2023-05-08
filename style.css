@@ -530,7 +530,7 @@ hr{
       margin-top: 15px;
     }
     .portifolio{
-      background-size: contain;
+      background-size: auto;
       background-repeat: repeat;
       width: 100%;
     }
@@ -694,6 +694,9 @@ hr{
   }
 }
 @media screen and (max-width: 414px){
+  .container{
+    background-size: cover;
+  }
   .menu-Content{
     justify-content: space-between;
     gap: 100px;
@@ -739,19 +742,24 @@ hr{
     height: 150px;
   }
   .portifolio{
-    margin-left: -20vh;
+    background-size: contain;
+  }
+  .portifolio-Empresas{
+    margin-left: 1vh;
   }
   .portifolio h1{
     font-size: 15px;
     padding: 10px;
-    margin-left: 28vh;
+    margin-left: 7vh;
     width: 300px;
   }
+
   #empresa{
     height: 200px;
     margin-left: 10px;
     margin-right: 10px;
   }
+
   #btn-carrossel{
       width: 40px;
       padding: 10px;
@@ -785,10 +793,10 @@ hr{
     margin-bottom: 20px;
   }
   .linha{
-    width: 47vh;
+    width: 45vh;
   }
   hr{
-    width: 50vh;
+    width: 49.5vh;
   }
   .rodape{
     max-width: 414px;
@@ -812,6 +820,9 @@ hr{
   }
 }
 @media screen and (max-width: 375px) {
+  .container{
+    background-size: cover;
+  }
   .menu-Content{
     display: flex;
     justify-content: space-between;
@@ -825,6 +836,8 @@ hr{
     width: 310px;
   }
   .servicos{
+    background-size: auto;
+    width: 110%;
     margin-left: -1vh;
   }
   .servicos h1{
@@ -836,8 +849,10 @@ hr{
     gap: 35px;
   }
   .portifolio{
-    margin-left: -1vh;
+    background-size: contain;
+    width: 110%;
   }
+
   .portifolio h1{
     font-size: 18px;
     padding: 10px;
@@ -858,19 +873,22 @@ hr{
   }
   .fomulario{
     background-size: cover;
+    width: 110%;
   }
   .fomulario-Content{
     width: 300px;
-    margin-left: 50px;
+    margin-left: 60px;
   }
   .fomulario h4{
     width: 250px;
     margin-left: 20px;
   }
-
   .fomulario-Content input{
     width: 250px;
     margin-left: 20px;
+  }
+  #tracado{
+    margin-left: 23vh;
   }
   .rodape{
     display: flex;
@@ -926,7 +944,10 @@ hr{
     padding: 10px;
     width: 300px;
     margin-bottom: 20px;
-    margin-left: 5vh;
+    margin-left: 6vh;
+  }
+  .portifolio-Empresas{
+    margin-left: 0;
   }
   #empresa{
     height: 200px;
@@ -943,7 +964,7 @@ hr{
   }
   .fomulario-Content{
     width: 300px;
-    margin-left: 30px;
+    margin-left: 55px;
   }
   .fomulario h4{
     width: 250px;
@@ -957,11 +978,8 @@ hr{
   #tracado{
     margin-left: 22vh;
   }
-  .linha{
-    max-width: 43vh;
-  }
   hr{
-    max-width: 43vh;
+    max-width: 47.5vh;
   }
   .rodape{
     max-width: 360px;
