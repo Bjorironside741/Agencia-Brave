@@ -747,9 +747,6 @@ hr{
     margin-left: 28vh;
     width: 300px;
   }
-  hr{
-    width: 100vh;
-  }
   #empresa{
     height: 200px;
     margin-left: 10px;
@@ -761,8 +758,10 @@ hr{
   }
   .fomulario{
     background-size: cover;
+    overflow-x: hidden;
   }
   .fomulario-Content{
+    overflow: hidden;
     font-size: 15px;
     text-align: justify;
     width: 350px;
@@ -786,30 +785,30 @@ hr{
     margin-bottom: 20px;
   }
   .linha{
-    width: 50vh;
+    width: 45vh;
   }
   hr{
-    width: 49vh;
+    width: 46vh;
   }
   .rodape{
+    max-width: 414px;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
     align-items: center;
-    padding: 10px;
-    margin-left: -330px;
+    margin-left: -40px;
   }
   .agencia{
     width: 200px;
-    margin-left: 10vh;
-  }
+  }  
   .endereco{
-    width: 300px;
-    margin-left: 20vh;
+    width: 270px;
+    margin-left: 100px;
+    text-align: center;
+    
   }
   .redes{
     width: 200px;
-    margin-left: 18vh;
+    margin-left: 100px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 375px) {
@@ -886,11 +885,11 @@ hr{
   }
   .endereco{
     width: 300px;
-    margin-left: 20vh;
+    margin-left: 10vh;
   }
   .redes{
     width: 200px;
-    margin-left: 18vh;
+    margin-left: 10vh;
   }
 }
 @media screen and (max-width: 360px){
@@ -958,29 +957,30 @@ hr{
   #tracado{
     margin-left: 22vh;
   }
+  .linha{
+    max-width: 43vh;
+  }
   hr{
-    overflow: hidden;
-    width: 50vh;
+    max-width: 43vh;
   }
   .rodape{
+    max-width: 360px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    margin-left: -45vh;
     padding: 10px;
-
+    margin-left: -20px;
   }
   .agencia{
     width: 200px;
-    margin-left: 10vh;
   }
   .endereco{
     width: 300px;
-    margin-left: 20vh;
+    margin-left: 70px;
   }
   .redes{
     width: 200px;
-    margin-left: 18vh;
+    margin-left: 70px;
   }
 }
