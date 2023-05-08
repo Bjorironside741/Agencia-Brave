@@ -118,11 +118,16 @@
       <div class="fomulario-Content">
         <img src="./Post_do_Instagram_Agencia_de_Marketing_Minimalista_1.png" alt="">
         <h4>Não deixe sua concorrência sair na frente, preencha agora mesmo nosso formulário e comece a conquistar seus objetivos de marketing!</h4>
-        <input type="text" name="Nome" id="nome" placeholder="Nome">
-        <input type="email" name="Email" id="email" placeholder="Email">
-        <input type="text" name="Phone" id="telefone" placeholder="Número do Whatsapp">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <input type="text" name="nome" id="nome" placeholder="Nome" required>
+          <input type="email" name="email" id="email" placeholder="Email" required>
+          <input type="text" name="phone" id="telefone" placeholder="Número do Whatsapp" required>
 
-        <button>Enviar</button>
+          <button type="submit">Enviar</button>
+
+          <input type="hidden" name="accessKey" value="e2754f73-3284-4111-9c8d-4bf321461494">
+          <input type="hidden" name="redirectTo" value="https://bjorironside741.github.io/Agencia-Brave/">
+      </form>
       </div>
   </div>
   <div class="linha">
